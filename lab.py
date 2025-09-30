@@ -27,7 +27,7 @@ print(df.sort_values('legs', ascending=False)[['animal_name', 'legs']].head())
 print("\nORDENADO POR TIPO DE CLASE:")
 print(df.sort_values('class_type')[['animal_name', 'class_type']].head())
 
-# Calcular medidas estadísticas
+# medidas estadísticas 
 print("\n6. MEDIDAS ESTADÍSTICAS:")
 print("Columna 'legs':")
 print(f"a. Media: {np.mean(df['legs']):.2f}")
